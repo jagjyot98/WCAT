@@ -47,5 +47,5 @@ for(let i=0;i<filesarr.length;i++){
 console.log(content)    // finally displaying the whole string conatining whole contents of all the files
 
 //Numbering fucntion
-let contentarr=content.split("\n")
+let contentarr=content.split("\r\n") //for windows "\r\n"
 console.log(contentarr)
